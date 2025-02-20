@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(241, 167, 167);
+    color: rgb(207, 136, 136);
+}
+header{
+    margin-top: 20px;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: #e0acac;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: rgb(109, 7, 7);
+}
+
+.home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+span{
+    color: #fcd0d0;
+}
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.home-img{
+    border-radius: 10%;
+}
+
+.profile{
+    box-sizing: border-box;
+    line-height: 6rem;
+}
+.profile h1{
+    font-size: 6rem;
+    color: #660707;
+}
+
+.profile p{
+    font-size: 2rem;
+    color: #9b1717;
+}
+.education{
+    background-color: #660707;
+    box-sizing: border-box;
+}
+.education .title h1{
+    font-size: 6rem;
+    color: #fcd0d0;
+}
+.education .content {
+    line-height: 6rem;
+}
+.education .content .title2 {
+    color: #b74b4b;
+    font-size: 3.5rem;
+}
+.education .content .content2 {
+    color: #fcd0d0;
+    font-size: 2rem;
+}
+.funfacts {
+    align-items: flex-start;
+    background-color: rgb(243, 182, 182);
+    box-sizing: border-box;
+    line-height: 6rem;
+}
+.funfacts h1{
+    font-size: 6rem;
+    color: #9b1717;
+}
+.funfacts ul{
+    font-size: 2rem;
+    color: #9b1717;
+}
